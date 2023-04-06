@@ -18,7 +18,7 @@
 ## ChromHMM output
 Emission | Overlap | Transition 
  --- | --- | ---
-![Image](/ChromHMM_Output/emissions_15.png) | ![Image](/ChromHMM_Output/A549_15_overlap.png) | ![Image](/ChromHMM_Output/transitions_15.png)
+![Image](/ChromHMM_Output/A549_15_RefSeqTES_neighborhood.png) | ![Image](/ChromHMM_Output/A549_15_overlap.png) | ![Image](/ChromHMM_Output/transitions_15.png)
 
 RefSeqTSS | RefSeqTES 
  --- | --- 
