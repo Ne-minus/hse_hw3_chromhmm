@@ -1,6 +1,7 @@
 # hse_hw3_chromhmm
 
 ## Соответствие меток и файлов
+<p align="center">
 | Метка       | Файл                |
 | :-------------: |:------------------:|
 | control     | wgEncodeBroadHistoneCd20ControlAlnRep1.bam    |
@@ -14,6 +15,7 @@
 | H3K9ac     | wgEncodeBroadHistoneA549H3k09acEtoh02AlnRep1.bam    |
 | H3K9me3     | wgEncodeBroadHistoneA549H3k09me3Etoh02AlnRep1.bam    |
 | H4K20me1    | wgEncodeBroadHistoneA549H4k20me1Etoh02AlnRep1.bam    |
+</p>
 
 ## ChromHMM output
 Emission | Overlap | Transition 
