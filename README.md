@@ -75,3 +75,4 @@ with open('A549_15_dense_new.bed', 'w') as f:
 <p align='center'>
  <img src = 'https://github.com/Ne-minus/hse_hw3_chromhmm/blob/main/data/bonus.png'>
 </p>
+[Сам файл](https://github.com/Ne-minus/hse_hw3_chromhmm/blob/main/data/A549_15_dense_new.bed)
