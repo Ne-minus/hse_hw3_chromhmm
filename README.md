@@ -16,9 +16,13 @@
 | H4K20me1    | wgEncodeBroadHistoneA549H4k20me1Etoh02AlnRep1.bam    |
 
 ## ChromHMM output
-| ![](/ChromHMM_Output/emissions_15.png) ![](/ChromHMM_Output/A549_15_overlap.png) | 
-| ![](https://github.com/Ne-minus/hse_hw3_chromhmm/blob/main/data/ChromHMM_Output/A549_15_RefSeqTES_neighborhood.png) | ![](https://github.com/Ne-minus/hse_hw3_chromhmm/blob/main/data/ChromHMM_Output/A549_15_RefSeqTSS_neighborhood.png) |
-| ![](/ChromHMM_Output/A549_15_RefSeqTSS_neighborhood.png) |     |
+Emission | Overlap | Transition 
+ --- | --- | ---
+![Image](/ChromHMM_Output/emissions_15.png) | ![Image](/ChromHMM_Output/A549_15_overlap.png) | ![Image](/ChromHMM_Output/transitions_15.png)
+
+RefSeqTSS | RefSeqTES 
+ --- | --- 
+![Image](/ChromHMM_Output/A549_15_RefSeqTSS_neighborhood.png) | ![Image](/ChromHMM_Output/A549_15_RefSeqTES_neighborhood.png)
 
 ## Naming
 | Состояние       |  Тип               | Описание                | Название                |
