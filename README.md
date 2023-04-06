@@ -16,11 +16,10 @@
 | H4K20me1    | wgEncodeBroadHistoneA549H4k20me1Etoh02AlnRep1.bam    |
 
 ## ChromHMM output
-| Состояние       |  Тип               | 
 | :-------------: | :------------------: | 
 | ![](/ChromHMM_Output/emissions_15.png) | ![](/ChromHMM_Output/A549_15_overlap.png) | 
 | ![](/ChromHMM_Output/transitions_15.png) | ![](/ChromHMM_Output/A549_15_RefSeqTES_neighborhood.png) |
-| ![](/ChromHMM_Output/A549_15_RefSeqTSS_neighborhood.png) |  |
+| ![](/ChromHMM_Output/A549_15_RefSeqTSS_neighborhood.png) |     |
 
 ## Naming
 | Состояние       |  Тип               | Описание                | Название                |
