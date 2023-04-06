@@ -1,7 +1,7 @@
 # hse_hw3_chromhmm
 
 ## Соответствие меток и файлов
-<center>
+
 | Метка       | Файл                |
 | :-------------: |:------------------:|
 | control     | wgEncodeBroadHistoneCd20ControlAlnRep1.bam    |
@@ -15,7 +15,6 @@
 | H3K9ac     | wgEncodeBroadHistoneA549H3k09acEtoh02AlnRep1.bam    |
 | H3K9me3     | wgEncodeBroadHistoneA549H3k09me3Etoh02AlnRep1.bam    |
 | H4K20me1    | wgEncodeBroadHistoneA549H4k20me1Etoh02AlnRep1.bam    |
-</center>
 
 ## ChromHMM output
 Emission | Overlap | Transition 
@@ -44,3 +43,5 @@ RefSeqTSS | RefSeqTES
 | 13     | ![](/data/13.png)     |  <ul><li> попадает на RefSeqTSS, RefSeqGene, CpgIslands, в основном попдает RefSeqTSS2kb</li><li>выражено на метках H3K04me1, H3K04me2, H3K04me3, H3K09ac, H3K27ac, H3K79me2</li><li>локализуется на интроне или экзоне</li> | **Strong Enhancer**, так как более низкий уровень H3K04me3 и в целом для характерных меток наблюдается высокий уровень частоты |
 | 14     | ![](/data/14.png)     |  <ul><li> попадает на RefSeqTES, RefSeqGene, RefSeq Exon, также попадает на ядерную ламину, но редко</li><li>выражено на метках H3K04me1, H3K04me2, меньше на H3K04me3</li><li>локализуется на интроне</li> | **Weak Enhancer**|
 | 15     | ![](/data/15.png)     |  <ul><li> попадает на CpgIslands, RefSeqTES, RefSeqGene, RefSeq Exon,  RefSeqTSS2kb, также попадает на ядерную ламину</li><li>выражено на метках H3K04me2, H3K04me3, меньше на H3K04me1</li><li>локализуется на интроне</li> | **Weak Promoter**|
+ 
+ ## Bonus
