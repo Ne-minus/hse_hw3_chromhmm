@@ -18,11 +18,11 @@
 ## ChromHMM output
 Emission | Overlap | Transition 
  --- | --- | ---
-![Image](/ChromHMM_Output/A549_15_RefSeqTES_neighborhood.png) | ![Image](/ChromHMM_Output/A549_15_overlap.png) | ![Image](/ChromHMM_Output/transitions_15.png)
+![](/data/ChromHMM_Output/emissions_15.png) | ![](/data/ChromHMM_Output/A549_15_overlap.png) | ![](/data/ChromHMM_Output/transitions_15.png)
 
 RefSeqTSS | RefSeqTES 
  --- | --- 
-![Image](/ChromHMM_Output/A549_15_RefSeqTSS_neighborhood.png) | ![Image](/ChromHMM_Output/A549_15_RefSeqTES_neighborhood.png)
+![](/data/ChromHMM_Output/A549_15_RefSeqTSS_neighborhood.png) | ![](/data/ChromHMM_Output/A549_15_RefSeqTES_neighborhood.png)
 
 ## Naming
 | Состояние       |  Тип               | Описание                | Название                |
