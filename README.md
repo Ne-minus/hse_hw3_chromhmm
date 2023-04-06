@@ -1,5 +1,7 @@
 # hse_hw3_chromhmm
 
+## [Google Colab](https://colab.research.google.com/drive/1x_1YkpLawkn41YMd8afZjKMpJqlNbxMJ?usp=sharing)
+
 ## Соответствие меток и файлов
 
 | Метка       | Файл                |
@@ -45,3 +47,29 @@ RefSeqTSS | RefSeqTES
 | 15     | ![](/data/15.png)     |  <ul><li> попадает на CpgIslands, RefSeqTES, RefSeqGene, RefSeq Exon,  RefSeqTSS2kb, также попадает на ядерную ламину</li><li>выражено на метках H3K04me2, H3K04me3, меньше на H3K04me1</li><li>локализуется на интроне</li> | **Weak Promoter**|
  
  ## Bonus
+```
+import pandas as pd
+
+string = 'track name="A549_15" description="A549_15 (Emission ordered)" visibility=1 itemRgb="On"\n'
+df = pd.read_csv('A549_15_dense.bed', delimiter='\t', skiprows=[0], header=None)
+
+def changer(string):
+  names = ['1_Repressed', '2_Repressed', '3_Heterochromatin', '4_WeakTranscribed', '5_WeakTranscribed', '6_WeakTranscribed', '7_WeakEnhancer', '8_WeakTranscribed', 
+        '9_WeakEnhancer', '10_WeakPromoter', '11_ActivePromoter', '12_ActivePromoter', '13_StrongEnhancer', '14_WeakEnhancer', '15_WeakPromoter']
+  return names[string-1]
+
+df[3] = df[3].apply(changer)
+
+df.to_csv('A549_15_dense_new.bed', sep='\t', index=False)
+
+with open('A549_15_dense_new.bed') as f:
+  text = f.readlines()
+text[0] = string
+
+with open('A549_15_dense_new.bed', 'w') as f:
+  for i in text:
+    f.write(i)
+```
+<p align='center'>
+![](/data/bonus.png)
+</p>
