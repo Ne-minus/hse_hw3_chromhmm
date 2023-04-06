@@ -47,6 +47,8 @@ RefSeqTSS | RefSeqTES
 | 15     | ![](/data/15.png)     |  <ul><li> попадает на CpgIslands, RefSeqTES, RefSeqGene, RefSeq Exon,  RefSeqTSS2kb, также попадает на ядерную ламину</li><li>выражено на метках H3K04me2, H3K04me3, меньше на H3K04me1</li><li>локализуется на интроне</li> | **Weak Promoter**|
  
  ## Bonus
+ 
+Данный код также есть в колабе
 ```python
 import pandas as pd
 
