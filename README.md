@@ -15,7 +15,13 @@
 | H3K9me3     | wgEncodeBroadHistoneA549H3k09me3Etoh02AlnRep1.bam    |
 | H4K20me1    | wgEncodeBroadHistoneA549H4k20me1Etoh02AlnRep1.bam    |
 
+##ChromHMM output
+| :-------------: | :------------------: | 
+| ![](ChromHMM_Output/emissions_15.png) | ![](ChromHMM_Output/A549_15_overlap.png) | 
+| ![](ChromHMM_Output/transitions_15.png) | ![](ChromHMM_Output/A549_15_RefSeqTES_neighborhood.png) |
+| ![](ChromHMM_Output/A549_15_RefSeqTSS_neighborhood.png) |  |
 
+##Naming
 | Состояние       |  Тип               | Описание                | Название                |
 | :-------------: | :------------------: | :------------------ | :------------------: |
 | 1     | ![](/data/1.png)     |  <ul><li> чаще всего попадает на ядерную ламину</li><li>наиболее выражено (но слабо) на метке H3K27me3</li><li>в основном  локализуется в межгенном пространстве</li> | **Repressed** |
