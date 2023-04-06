@@ -71,5 +71,5 @@ with open('A549_15_dense_new.bed', 'w') as f:
     f.write(i)
 ```
 <p align='center'>
-![](/data/bonus.png)
+ src = 'https://github.com/Ne-minus/hse_hw3_chromhmm/blob/main/data/bonus.png'
 </p>
