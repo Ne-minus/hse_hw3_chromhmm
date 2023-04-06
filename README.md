@@ -47,7 +47,7 @@ RefSeqTSS | RefSeqTES
 | 15     | ![](/data/15.png)     |  <ul><li> попадает на CpgIslands, RefSeqTES, RefSeqGene, RefSeq Exon,  RefSeqTSS2kb, также попадает на ядерную ламину</li><li>выражено на метках H3K04me2, H3K04me3, меньше на H3K04me1</li><li>локализуется на интроне</li> | **Weak Promoter**|
  
  ## Bonus
-```
+```python
 import pandas as pd
 
 string = 'track name="A549_15" description="A549_15 (Emission ordered)" visibility=1 itemRgb="On"\n'
@@ -71,5 +71,5 @@ with open('A549_15_dense_new.bed', 'w') as f:
     f.write(i)
 ```
 <p align='center'>
- src = 'https://github.com/Ne-minus/hse_hw3_chromhmm/blob/main/data/bonus.png'
+ <img src = 'https://github.com/Ne-minus/hse_hw3_chromhmm/blob/main/data/bonus.png'>
 </p>
