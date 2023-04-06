@@ -18,4 +18,4 @@
 
 | Тип 1       | Тип 2                |
 | :-------------: |:------------------:|
-| ![](/data/1.png)     | wgEncodeBroadHistoneCd20ControlAlnRep1.bam    |
+| ![](/data/1.png)     | ![](/data/2.png)     |
